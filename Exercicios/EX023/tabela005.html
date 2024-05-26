@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        col.cnome {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Igor Santana</td>
+            <td>M</td>
+            <td>27</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Carla Santana</td>
+            <td>F</td>
+            <td>43</td>
+            <td>Manicure</td>
+        </tr>
+        <tr>
+            <td>Marcos Branco</td>
+            <td>M</td>
+            <td>21</td>
+            <td>Engenheiro</td>
+        </tr>
+        <tr>
+            <td>Claudio</td>
+            <td>M</td>
+            <td>32</td>
+            <td>Advogado</td>
+        </tr>
+        <tr>
+            <td>Fernanda</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Estudante</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
